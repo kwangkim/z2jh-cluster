@@ -1,4 +1,6 @@
 singleuser:
   defaultUrl: /lab
-  extraEnv:
-    NBGITPULLER_APP: lab
+  image:
+    name: gcr.io/z2jh-demo/singleuser
+    tag: latest
+  imagePullPolicy: always
